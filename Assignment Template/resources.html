@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head contains all the setting of the webpage -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <!-- navigation bar -->
+        <nav>
+            <div class="nav-container">
+                <ul class="nav-list">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./learning.html">Learning</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- nav bar ends here -->
+    </header>
+    <!-- the main tag indicate the main content of the website -->
+    <main>
+        <h1>Learning HTML & CSS</h1>
+        <!-- section helps your website to be more organised. You don't need to use it in your own website -->
+        <section><!-- heading -->
+            <h2>Headings</h2>
+            <p>HTML provides six levels of headings, which are defined with the <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags.</p>
+            <h1>This is an H1 heading</h1>
+            <h2>This is an H2 heading</h2>
+            <h3>This is an H3 heading</h3>
+            <h4>This is an H4 heading</h4>
+            <h5>This is an H5 heading</h5>
+            <h6>This is an H6 heading</h6>
+        </section>
+        <section> <!-- paragraph -->
+            <h2>Paragraphs</h2>
+            <p>Paragraphs are defined with the <code>&lt;p&gt;</code> tag. This is an example of a paragraph.</p>
+            <p>This is another paragraph with more text to demonstrate how paragraphs work in HTML.</p>
+        </section>
+        <section><!-- link to pages -->
+            <h2>Links</h2>
+            <p>Links are defined with the <code>&lt;a&gt;</code> tag. Here is an example:</p>
+            <a href="https://www.example.com">Visit Example.com</a>
+        </section>
+        <section><!-- link to image -->
+            <h2>Images</h2>
+            <p>Images are defined with the <code>&lt;img&gt;</code> tag. Here is an example:</p>
+            <img src="./pictures/300x200.png" alt="Placeholder Image">
+        </section>
+        <section> <!-- list -->
+            <h2>Lists</h2>
+            <p>There are two types of lists in HTML: ordered lists (<code>&lt;ol&gt;</code>) and unordered lists (<code>&lt;ul&gt;</code>).</p>
+            <div class="list-container">
+                <div>
+                    <h3>Ordered List</h3>
+                    <ol>
+                        <li>First item</li>
+                        <li>Second item</li>
+                        <li>Third item</li>
+                    </ol>
+                </div>
+                <div>
+                    <h3>Unordered List</h3>
+                    <ul>
+                        <li>First item</li>
+                        <li>Second item</li>
+                        <li>Third item</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section><!-- table -->
+            <h2>Tables</h2>
+            <p>Tables are defined with the <code>&lt;table&gt;</code> tag. Here is an example:</p>
+            <table>
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                    <th>Header 3</th>
+                </tr>
+                <tr>
+                    <td>Data 1</td>
+                    <td>Data 2</td>
+                    <td>Data 3</td>
+                </tr>
+                <tr>
+                    <td>Data 4</td>
+                    <td>Data 5</td>
+                    <td>Data 6</td>
+                </tr>
+            </table>
+        </section>
+        <section> <!-- position -->
+            <h2>Image and Text Placement Techniques</h2>
+            <p>Placing images and text in specific locations on a web page can be achieved using various CSS properties. Here are some techniques:</p>
+            <h3>Using Padding</h3>
+            <p>Padding adds space inside an element. Here is an example:</p>
+            <div class="padding-example">
+                <p>This box has padding.</p>
+            </div>
+            <h3>Using Margin</h3>
+            <p>Margin adds space outside an element. Here is an example:</p>
+            <div class="margin-example">
+                <p>This box has a margin.</p>
+            </div>
+            <h3>Using Positioning</h3>
+            <p>CSS offers several positioning methods:</p>
+            <ul>
+                <li><strong>Static:</strong> The default positioning method.</li>
+                <li><strong>Relative:</strong> Positions the element relative to its normal position.</li>
+                <li><strong>Absolute:</strong> Positions the element relative to its nearest positioned ancestor.</li>
+                <li><strong>Fixed:</strong> Positions the element relative to the browser window.</li>
+            </ul>
+            <div class="position-example-container">
+                <div class="position-example static">Static</div>
+                <div class="position-example relative">Relative</div>
+                <div class="position-example absolute">Absolute</div>
+                <div class="position-example fixed">Fixed</div>
+            </div>
+            <h3>Using Flexbox</h3> 
+            <p>Flexbox is a powerful layout tool. Here is an example:</p>
+            <div class="flexbox-example">
+                <div class="flex-item">Item 1</div>
+                <div class="flex-item">Item 2</div>
+                <div class="flex-item">Item 3</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Company</p>
+    </footer>
+</body>
+</html>
